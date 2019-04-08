@@ -4,7 +4,6 @@ import router from './router'
 import store from './store'
 import Buefy from 'buefy'
 import VueScrollTo from 'vue-scrollto'
-import 'buefy/dist/buefy.css'
 
 Vue.use(Buefy)
 Vue.use(VueScrollTo)

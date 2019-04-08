@@ -30,19 +30,19 @@
           <div class="navbar-item">
             <a class="button is-white" href="https://twitter.com/sean_daryl">
               <b-icon pack="fab" icon="twitter"></b-icon>
-              <span class="is-hidden-widescreen">Twitter</span>
+              <span class="is-hidden-desktop">Twitter</span>
             </a>
           </div>
           <div class="navbar-item">
             <a class="button is-white" href="https://www.linkedin.com/in/sean-hill">
               <b-icon pack="fab" icon="linkedin"></b-icon>
-              <span class="is-hidden-widescreen">Linkedin</span>
+              <span class="is-hidden-desktop">Linkedin</span>
             </a>
           </div>
           <div class="navbar-item">
             <a class="button is-white" href="https://github.com/sean-hill">
               <b-icon pack="fab" icon="github"></b-icon>
-              <span class="is-hidden-widescreen">Github</span>
+              <span class="is-hidden-desktop">Github</span>
             </a>
           </div>
         </div>

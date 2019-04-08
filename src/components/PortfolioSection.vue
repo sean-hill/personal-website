@@ -37,7 +37,7 @@ export default {
           'CardSwap is the first switch kit for subscription and eCommerce merchants, allowing users to put your card top-of-wallet for their favorite services—all in one place.',
         link: 'https://cardswap.q2open.io',
         image: require('@/assets/cardswap.png'),
-        background: '#78C1CB',
+        background: 'rgb(0, 122, 199)',
         button: 'View demo'
       },
       {
@@ -45,7 +45,7 @@ export default {
         description:
           'BikerBuddy lets people seek out other riders in their area who have offered up their place to stay for a low rate.',
         link: 'https://itunes.apple.com/us/app/bikerbuddy/id1274887782?mt=8',
-        image: require('@/assets/cardswap.png'),
+        image: require('@/assets/bikerbuddy.png'),
         background: '#e06a32',
         button: 'View app'
       }

@@ -1,34 +1,27 @@
-# seanhill.info
+# Personal portfolio website
+
+My personal portfolio website built using Vue.js and the Bulma CSS framework. Hope you enjoy!
 
 ## Project setup
+
 ```
 npm install
 ```
 
 ### Compiles and hot-reloads for development
+
 ```
 npm run serve
 ```
 
 ### Compiles and minifies for production
+
 ```
 npm run build
 ```
 
-### Run your tests
-```
-npm run test
-```
+### Unit tests
 
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Run your unit tests
 ```
 npm run test:unit
 ```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).

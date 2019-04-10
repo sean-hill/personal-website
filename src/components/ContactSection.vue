@@ -9,7 +9,7 @@
         <br>
         <br>
         <div class="columns">
-          <div class="column has-text-centered">
+          <div class="column is-offset-one-quarter is-one-quarter has-text-centered">
             <b-icon pack="fas" icon="envelope" size="is-large"></b-icon>
             <br>
             <br>
@@ -17,15 +17,15 @@
               <a href="mailto:me@seanhill.info">me@seanhill.info</a>
             </h1>
           </div>
-          <div class="column has-text-centered">
+          <!-- <div class="column has-text-centered">
             <b-icon pack="fas" icon="mobile-alt" size="is-large"></b-icon>
             <br>
             <br>
             <h1 class="title is-4">
               <a href="tel:4807370801">(480) 737-0801</a>
             </h1>
-          </div>
-          <div class="column has-text-centered">
+          </div>-->
+          <div class="column is-one-quarter has-text-centered">
             <b-icon pack="far" icon="compass" size="is-large"></b-icon>
             <br>
             <br>

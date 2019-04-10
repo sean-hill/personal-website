@@ -22,7 +22,8 @@ export default {
     sectionStyle() {
       return {
         backgroundImage: `url('${require('@/assets/hero-background.png')}')`,
-        backgroundSize: 'cover'
+        backgroundSize: 'cover',
+        backgroundPosition: 'center'
       }
     }
   }

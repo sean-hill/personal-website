@@ -7,9 +7,7 @@
     <div class="container">
       <div class="navbar-brand">
         <a class="navbar-item">
-          <img
-            src="https://theme.zdassets.com/theme_assets/737642/a47e9e5d60e7dff1e55111cf0caa737d9621da6c.png"
-          >
+          <img src="@/assets/brand2.png">
         </a>
         <a
           @click="toggleNav"

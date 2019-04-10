@@ -8,7 +8,7 @@
         >Lead engineer at Q2, a secure, cloud-based digital banking solutions company headquartered in Austin, Texas.</h2>
         <button
           v-scroll-to="{ el: '#portfolio', offset: -80 }"
-          class="button is-white is-large"
+          class="button is-white is-large is-hidden-mobile"
         >View Portfolio</button>
       </div>
     </div>

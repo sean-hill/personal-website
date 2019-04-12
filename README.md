@@ -1,6 +1,12 @@
 # Personal portfolio website
 
-My personal portfolio website built using Vue.js and the Bulma CSS framework. Hope you enjoy!
+My personal portfolio website built using Vue.js and the Bulma CSS framework. I leveraged the following technologies:
+
+- Vue.js
+- AWS Amplify
+- MarkdownIt
+- PrismJS
+- VueScrollTo
 
 ## Project setup
 

@@ -21,7 +21,4 @@ export default {
 </script>
 
 <style scoped lang="scss">
-.blog-list {
-  padding-top: 40px;
-}
 </style>

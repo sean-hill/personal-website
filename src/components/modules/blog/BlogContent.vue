@@ -3,6 +3,7 @@
     <div class="container">
       <div class="columns">
         <div class="column is-offset-2 is-8">
+          <BlogCrumbs :blog="blog"/>
           <div class="content is-medium" v-html="markdownHtml"></div>
         </div>
       </div>
@@ -14,6 +15,7 @@
 import axios from 'axios'
 import Prism from 'prismjs'
 import MarkdownIt from 'markdown-it'
+import BlogCrumbs from '@/components/modules/blog/BlogCrumbs'
 
 const md = new MarkdownIt({
   highlight: function(code, lang) {
@@ -24,6 +26,9 @@ const md = new MarkdownIt({
 export default {
   name: 'BlogContent',
   props: ['blog'],
+  components: {
+    BlogCrumbs
+  },
   data: () => ({
     markdown: undefined
   }),
@@ -42,3 +47,9 @@ export default {
   }
 }
 </script>
+
+<style scoped lang="scss">
+.content {
+  margin-top: 30px;
+}
+</style>

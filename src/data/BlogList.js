@@ -2,7 +2,7 @@ const blogs = {
   'clean-code': {
     title: 'JavaScript Clean Coding Best Practices',
     description:
-      'Writing clean code is what you must know and do in order to call yourself a professional developer...'
+      'When it comes to development, there is good programming and then there is great programming. Good programming functions...'
   }
 }
 

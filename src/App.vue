@@ -7,7 +7,7 @@
 <style lang="scss">
 @import '~bulma/sass/utilities/_all';
 
-$family-primary: 'PT Sans';
+$family-primary: 'Open Sans';
 
 @import '~bulma';
 @import '~buefy/src/scss/buefy';

@@ -1,7 +1,15 @@
 <template>
   <div>
-    <h1 class="title">Blog</h1>
-    <h2 class="subtitle">Take a look at my recent posts.</h2>
+    <nav class="breadcrumb" aria-label="breadcrumbs">
+      <ul>
+        <li>
+          <router-link to="/">Home</router-link>
+        </li>
+        <li class="is-active">
+          <a href="javascript:;" aria-current="page">Blog</a>
+        </li>
+      </ul>
+    </nav>
   </div>
 </template>
 

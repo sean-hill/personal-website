@@ -13,7 +13,7 @@
 </template>
 
 <script>
-import PortfolioCard from '@/components/PortfolioCard'
+import PortfolioCard from '@/components/modules/me/PortfolioCard'
 
 export default {
   name: 'PortfolioSection',

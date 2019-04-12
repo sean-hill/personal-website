@@ -9,8 +9,11 @@
     "test:unit": "vue-cli-service test:unit"
   },
   "dependencies": {
+    "axios": "^0.18.0",
     "buefy": "^0.7.3",
     "core-js": "^2.6.5",
+    "markdown-it": "^8.4.2",
+    "prismjs": "^1.16.0",
     "vue": "^2.6.6",
     "vue-router": "^3.0.1",
     "vue-scrollto": "^2.15.0",

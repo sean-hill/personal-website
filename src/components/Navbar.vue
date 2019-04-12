@@ -6,7 +6,7 @@
   >
     <div class="container">
       <div class="navbar-brand">
-        <a class="navbar-item">
+        <a href="/" class="navbar-item">
           <img src="@/assets/brand2.png">
         </a>
         <a
@@ -25,6 +25,9 @@
 
       <div class="navbar-menu" :class="navbarClass">
         <div class="navbar-end">
+          <div class="navbar-item">
+            <router-link to="/blog" class="button is-info">Blog</router-link>
+          </div>
           <div class="navbar-item">
             <a class="button is-white" href="https://twitter.com/sean_daryl">
               <b-icon pack="fab" icon="twitter"></b-icon>

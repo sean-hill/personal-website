@@ -1,4 +1,4 @@
-# Personal portfolio website
+# Sean Hill's personal website 🎉
 
 My personal portfolio website built using Vue.js and the Bulma CSS framework. I leveraged the following technologies:
 

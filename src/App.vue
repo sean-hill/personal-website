@@ -17,6 +17,16 @@ $family-primary: 'Open Sans';
 }
 
 .is-top-section {
-  padding-top: 4.25rem;
+  @include mobile {
+    padding-top: 2.25rem;
+  }
+
+  @include tablet {
+    padding-top: 2.25rem;
+  }
+
+  @include from($desktop) {
+    padding-top: 4.25rem;
+  }
 }
 </style>

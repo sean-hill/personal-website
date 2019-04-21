@@ -14,12 +14,16 @@
 <script>
 import BlogHeader from '@/components/modules/blog/BlogHeader.vue'
 import BlogList from '@/components/modules/blog/BlogList.vue'
+import mixpanel from 'mixpanel-browser'
 
 export default {
   name: 'blog',
   components: {
     BlogHeader,
     BlogList
+  },
+  mounted() {
+    mixpanel.track('Viewed Blog Page')
   }
 }
 </script>

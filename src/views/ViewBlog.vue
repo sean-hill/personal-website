@@ -1,19 +1,14 @@
 <template>
-  <div>
-    <Navbar/>
-    <BlogContent :blog="blog"/>
-  </div>
+  <BlogContent :blog="blog"/>
 </template>
 
 <script>
-import Navbar from '@/components/Navbar'
 import BlogContent from '@/components/modules/blog/BlogContent'
 import { getBlog } from '@/data/BlogList'
 
 export default {
   name: 'ViewBlog',
   components: {
-    Navbar,
     BlogContent
   },
   computed: {

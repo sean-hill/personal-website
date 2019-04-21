@@ -4,7 +4,9 @@
       <div class="columns">
         <div class="column is-offset-2 is-8">
           <BlogCrumbs :blog="blog"/>
-          <div class="content is-medium" v-html="markdownHtml"></div>
+          <FadeTransition>
+            <div v-if="markdownHtml" class="content is-medium" v-html="markdownHtml"></div>
+          </FadeTransition>
         </div>
       </div>
     </div>
@@ -16,6 +18,7 @@ import axios from 'axios'
 import Prism from 'prismjs'
 import MarkdownIt from 'markdown-it'
 import BlogCrumbs from '@/components/modules/blog/BlogCrumbs'
+import FadeTransition from '@/transitions/FadeTransition'
 
 const md = new MarkdownIt({
   highlight: function(code, lang) {
@@ -27,7 +30,8 @@ export default {
   name: 'BlogContent',
   props: ['blog'],
   components: {
-    BlogCrumbs
+    BlogCrumbs,
+    FadeTransition
   },
   data: () => ({
     markdown: undefined

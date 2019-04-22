@@ -1,5 +1,5 @@
 import { shallowMount, createLocalVue } from '@vue/test-utils'
-import HelloWorld from '@/components/modules/me/PortfolioCard.vue'
+import PortfolioCard from '@/components/modules/me/PortfolioCard.vue'
 import Buefy from 'buefy'
 
 const localVue = createLocalVue()
@@ -16,7 +16,7 @@ describe('PortfolioCard.vue', () => {
       button: 'View demo'
     }
 
-    const wrapper = shallowMount(HelloWorld, {
+    const wrapper = shallowMount(PortfolioCard, {
       propsData: {
         project
       },

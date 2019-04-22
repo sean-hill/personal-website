@@ -1,9 +1,11 @@
 import { shallowMount, createLocalVue } from '@vue/test-utils'
 import HelloWorld from '@/components/Navbar.vue'
 import Buefy from 'buefy'
+import VueRouter from 'vue-router'
 
 const localVue = createLocalVue()
 localVue.use(Buefy)
+localVue.use(VueRouter)
 
 describe('Navbar.vue', () => {
   it('renders links to social pages', () => {

@@ -3,6 +3,11 @@ const blogs = {
     title: 'JavaScript Clean Coding Best Practices',
     description:
       'When it comes to development, there is good programming and then there is great programming. Good programming functions...'
+  },
+  'functional-programming': {
+    title: 'What is Functional Programming?',
+    description:
+      'Functional programming has become a really hot topic in the JavaScript world...'
   }
 }
 

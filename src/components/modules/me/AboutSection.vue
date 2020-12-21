@@ -5,7 +5,7 @@
         <h1 class="title is-2 is-spaced">Hi, I'm Sean</h1>
         <h2
           class="subtitle"
-        >Lead engineer at Q2, a secure, cloud-based digital banking solutions company headquartered in Austin, Texas.</h2>
+        >Senior Software Engineer at Atomic, the infrastructure for connecting to payroll accounts.</h2>
         <button
           v-scroll-to="{ el: '#portfolio', offset: -80 }"
           class="button is-white is-large is-hidden-mobile"
